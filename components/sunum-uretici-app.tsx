@@ -71,7 +71,7 @@ const EXAMPLES = [
 ];
 
 const BTN_PRIMARY =
-  "inline-flex items-center justify-center gap-1.5 rounded-lg bg-brand-navy px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-navy/90 hover:shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-purple focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-brand-purple dark:text-white";
+  "inline-flex items-center justify-center gap-1.5 rounded-lg bg-brand-navy px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-navy/90 hover:shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-pink focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-brand-pink dark:text-white";
 
 const BTN_OUTLINE =
   "inline-flex items-center justify-center gap-1.5 rounded-lg border border-slate-300 bg-white/70 px-4 py-2 text-sm font-medium text-slate-900 shadow-sm backdrop-blur transition hover:bg-slate-50 hover:shadow disabled:cursor-not-allowed disabled:opacity-50 dark:border-slate-700 dark:bg-slate-900/60 dark:text-slate-100 dark:hover:bg-slate-900";
@@ -152,7 +152,7 @@ export function SunumUreticiApp() {
         <div className={CARD}>
           <div className="border-b border-slate-200 px-5 py-4 dark:border-slate-800">
             <h2 className="flex items-center gap-2 text-sm font-semibold text-slate-900 dark:text-slate-100">
-              <Presentation className="size-4 text-brand-purple" />
+              <Presentation className="size-4 text-brand-pink" />
               Sunum bilgisi
             </h2>
           </div>
@@ -218,7 +218,7 @@ export function SunumUreticiApp() {
                     className={cn(
                       "rounded-lg border px-3 py-2 text-xs font-medium transition",
                       theme === t.value
-                        ? "border-brand-purple ring-2 ring-brand-purple/30"
+                        ? "border-brand-pink ring-2 ring-brand-pink/30"
                         : "border-slate-300 dark:border-slate-700",
                     )}
                   >
@@ -276,7 +276,7 @@ export function SunumUreticiApp() {
                     key={i}
                     type="button"
                     onClick={() => setTopic(ex)}
-                    className="rounded-full border border-slate-300 bg-white/50 px-2.5 py-1 text-[11px] text-slate-700 transition hover:border-brand-purple hover:text-slate-900 dark:border-slate-700 dark:bg-slate-900/40 dark:text-slate-300 dark:hover:text-slate-100"
+                    className="rounded-full border border-slate-300 bg-white/50 px-2.5 py-1 text-[11px] text-slate-700 transition hover:border-brand-pink hover:text-slate-900 dark:border-slate-700 dark:bg-slate-900/40 dark:text-slate-300 dark:hover:text-slate-100"
                   >
                     {ex.slice(0, 32)}…
                   </button>
@@ -310,7 +310,7 @@ export function SunumUreticiApp() {
               "flex flex-col items-center gap-3 border-dashed py-14 text-center",
             )}
           >
-            <Layers className="size-10 text-brand-purple" />
+            <Layers className="size-10 text-brand-pink" />
             <h3 className="font-semibold text-slate-900 dark:text-slate-100">
               Sunum iskeletin burada görünecek
             </h3>
@@ -329,7 +329,7 @@ export function SunumUreticiApp() {
               "flex flex-col items-center gap-3 py-14 text-center",
             )}
           >
-            <Loader2 className="size-10 animate-spin text-brand-purple" />
+            <Loader2 className="size-10 animate-spin text-brand-pink" />
             <p className={cn("text-sm", MUTED_TEXT)}>
               Sunum hazırlanıyor… 10-30 saniye.
             </p>
@@ -405,7 +405,7 @@ export function SunumUreticiApp() {
                   ))}
                 </ul>
                 <div className="mt-3 rounded-lg border border-slate-200 bg-slate-50/60 px-3 py-2 dark:border-slate-800 dark:bg-slate-950/40">
-                  <p className="mb-1 text-[11px] font-semibold uppercase tracking-wider text-brand-purple">
+                  <p className="mb-1 text-[11px] font-semibold uppercase tracking-wider text-brand-pink">
                     Konuşmacı notu
                   </p>
                   <p className={cn("text-xs leading-relaxed italic", MUTED_TEXT)}>

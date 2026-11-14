@@ -5,7 +5,7 @@ export default function HomePage() {
     <main className="mx-auto max-w-6xl px-6 py-10 sm:py-14">
       <header className="mb-10 flex flex-wrap items-start justify-between gap-4">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-widest text-brand-purple">
+          <p className="text-xs font-semibold uppercase tracking-widest text-brand-pink">
             Yapay Zekâ Projesi
           </p>
           <h1 className="mt-2 flex items-center gap-3 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-slate-100">
